@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
 	LoadingSubtitle = "by 3qxt#9919",
 	ConfigurationSaving = {
 		Enabled = true,
-		FileName = "._."
+		FileName = "._. (paid)"
 	},
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
