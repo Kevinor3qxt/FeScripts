@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 local Window = Rayfield:CreateWindow({
-	Name = "._.",
+	Name = "._. - Paid Verison",
 	LoadingTitle = "Welcome to ._. (paid)",
 	LoadingSubtitle = "by 3qxt#9919",
 	ConfigurationSaving = {
@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
 	},
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-		Title = "._.",
+		Title = "._. - Paid Verison",
 		Subtitle = "Key System",
 		Note = "Put in the key that you got from the bot when bought",
 		Key = "Key"
