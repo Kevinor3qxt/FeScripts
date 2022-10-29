@@ -135,3 +135,9 @@ local Button = FeTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Nept"))()
 	end,
 })
+local Button = FeTab:CreateButton({
+	Name = "knife",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Knife"))()
+	end,
+})
