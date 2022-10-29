@@ -12,7 +12,7 @@ local Window = Rayfield:CreateWindow({
 		Title = "._.",
 		Subtitle = "Key System",
 		Note = "Put in the key that you got from the bot when bought",
-		Key = "welcometo._."
+		Key = "welcometo._." , "ownerkeyxd"
 	}
 })
 Rayfield:Notify("Welcome to ._.","Thanks for buying",10010348543) -- (t,c,image)
