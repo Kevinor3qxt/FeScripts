@@ -1,0 +1,137 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+	Name = "._.",
+	LoadingTitle = "Welcome to ._. (paid)",
+	LoadingSubtitle = "by 3qxt#9919",
+	ConfigurationSaving = {
+		Enabled = true,
+		FileName = "._."
+	},
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "._.",
+		Subtitle = "Key System",
+		Note = "Put in the key that you got from the bot when bought",
+		Key = "WelcomeTo._."
+	}
+})
+Rayfield:Notify("Welcome to ._.","Thanks for buying",10010348543) -- (t,c,image)
+
+local HomeTab = Window:CreateTab("Home")
+local ReTab = Window:CreateTab("Reanimations")
+local FeTab = Window:CreateTab("Scripts")
+local Label = HomeTab:CreateLabel("Thank you for buying ._.")
+local Button = ReTab:CreateButton({
+	Name = "Mizt Reanimate (best one)",
+	Callback = function()
+		_G.MiztReanimSettings = {
+    PermanentDeath = false,
+    NoHeadPermanentDeath = false,
+    Noclip = true,
+    HatReanimate = false,
+    SemiHatReanimate = false,
+    UseMizaruTorso = false,
+    FlingActive = false,
+    AlignMethod = true,
+    Netless = true,
+    ActiveLegacyNet = true,
+    NetlessVelocity = {0,0,-50}
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sylixe/Scripts/main/MiztReanimate.lua',true))()
+	end,
+})
+local Button = ReTab:CreateButton({
+	Name = "Perma Death reanimate",
+	Callback = function()
+_G.MiztReanimSettings = {
+    PermanentDeath = true,
+    NoHeadPermanentDeath = false,
+    Noclip = true,
+    HatReanimate = false,
+    SemiHatReanimate = false,
+    UseMizaruTorso = false,
+    FlingActive = false,
+    AlignMethod = true,
+    Netless = true,
+    ActiveLegacyNet = true,
+    NetlessVelocity = {0,0,-50}
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sylixe/Scripts/main/MiztReanimate.lua',true))()
+	end,
+})
+local Button = ReTab:CreateButton({
+	Name = "Fling Reanimate",
+	Callback = function()
+_G.MiztReanimSettings = {
+    PermanentDeath = false,
+    NoHeadPermanentDeath = false,
+    Noclip = true,
+    HatReanimate = false,
+    SemiHatReanimate = false,
+    UseMizaruTorso = false,
+    FlingActive = true,
+    AlignMethod = true,
+    Netless = true,
+    ActiveLegacyNet = true,
+    NetlessVelocity = {0,0,-50}
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sylixe/Scripts/main/MiztReanimate.lua',true))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Gale Fighter",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Gale%20Fighter"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Chill",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Chill"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Krystal Dance V1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/krystal%20dance%20v1"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Krystal Dance V2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/krystal%20dance%20v2"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Sonic",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Sonic"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Ender",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/ender"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Hacker X",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/HackerX"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Magic Unknown",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Magic"))()
+	end,
+})
+local Button = FeTab:CreateButton({
+	Name = "Neptunian V",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kevinor3qxt/FeScripts/main/Nept"))()
+	end,
+})
