@@ -20,7 +20,7 @@ Rayfield:Notify("Welcome to ._.","Thanks for buying",10010348543) -- (t,c,image)
 local HomeTab = Window:CreateTab("Home")
 local ReTab = Window:CreateTab("Reanimations")
 local FeTab = Window:CreateTab("Scripts")
-local FeFeTab = Window:CreateTab("Scripts With reanimate bulit in")
+local FeFeTab = Window:CreateTab("Scripts Already Reanimated")
 local Label = HomeTab:CreateLabel("Thank you for buying ._.")
 local Button = ReTab:CreateButton({
 	Name = "Mizt Reanimate (best one)",
