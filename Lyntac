@@ -21,16 +21,16 @@ local MainSection = Main:NewSection("Home")
 local ReanimateSection = Main:NewSection("Reanimations")
 local FSSection = Main:NewSection("Free Scripts")
 local HSSection = Main:NewSection("Hat Scripts")
-local HatsSection = Main:NewSection("Hats")
+local HatsSection = Main:NewSection("Just grass copy hats")
 
 MainSection:NewButton("Copy Discord Invite", function()
-setclipboard("https://discord.gg/MXH3MyQ3wA")
+setclipboard("Cord banned rn")
 end)
 
 function ShortLoadstring(text)
 	loadstring(game:HttpGet(text))()
 end
-ReanimateSection:NewButton("Simple Reanimate", function()
+ReanimateSection:NewButton("Simple Reanimate (idk why but if you reset ir breaks all reanimates so dont use rn)", function()
 if _G.Reanimated ~= true then
 ShortLoadstring("https://raw.githubusercontent.com/Gelatek/ProjectCat/main/Reanimate/SimpleReanimate.lua")
 else
@@ -38,7 +38,7 @@ Message("")
 end
 end)
 
-ReanimateSection:NewButton("Bot Reanimate", function()
+ReanimateSection:NewButton("Bot Reanimate (use this for R6 best bot reanimate also)", function()
 	if _G.Reanimated ~= true then
 		ShortLoadstring("https://raw.githubusercontent.com/Gelatek/ProjectCat/main/Reanimate/BotReanimate.lua")
         
